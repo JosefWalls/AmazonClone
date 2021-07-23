@@ -8,7 +8,7 @@ import reducer , { initalState } from './Reducer';
 
 ReactDOM.render(
     <StateProvider initalState={initalState} reducer={reducer}>
-      <App />,
+      <App />
     </StateProvider>,
   document.getElementById('root')
 );
